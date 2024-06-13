@@ -1492,3 +1492,94 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.06.13-10.06.57:887][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
 [2024.06.13-10.06.57:899][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
 [2024.06.13-10.06.57:941][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.06.13-10.36.13:776][348]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.06.13-10.36.13:791][348]LogContentBrowser: Creating deferred item: NewFolder
+[2024.06.13-10.36.13:814][349]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.06.13-10.36.16:841][520]LogContentBrowser: Attempting asset rename: NewFolder -> ProjectFiles
+[2024.06.13-10.36.16:848][520]LogContentBrowser: End creating deferred item NewFolder
+[2024.06.13-10.37.38:585][923]LogInterchangeEngine: [Pending] Importing
+[2024.06.13-10.37.38:585][923]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Owen/Docume...s/Blueprint Beginner/mask.TGA]
+[2024.06.13-10.37.38:603][923]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Owen\Documents\Unreal Projects\Blueprint Beginner\SM_Ball.FBX)
+[2024.06.13-10.37.38:646][923]LogFbx: Loading FBX Scene from C:\Users\Owen\Documents\Unreal Projects\Blueprint Beginner\SM_Ball.FBX
+[2024.06.13-10.37.38:661][923]LogFbx: FBX Scene Loaded Succesfully
+[2024.06.13-10.37.39:086][923]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2024.06.13-10.37.39:275][923]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 379.09082 MiB, MemoryLimit = 135.027344 MiB 
+[2024.06.13-10.37.39:276][923]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 379.09082 MiB, MemoryLimit = 132.144531 MiB 
+[2024.06.13-10.37.39:313][923]LogTexture: Display: Building textures: /Game/ProjectFiles/mask.mask (TFO_AutoDXT, 2400x2400 x1x1x1) (Required Memory Estimate: 379.09082 MB), EncodeSpeed: Fast
+[2024.06.13-10.37.39:604][923]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Owen/Docume...s/Blueprint Beginner/mask.TGA]
+[2024.06.13-10.37.39:604][923]LogInterchangeEngine: [Success] Import Done
+[2024.06.13-10.37.43:024][923]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.06.13-10.37.43:595][923]LogStaticMesh: Display: Building static mesh SM_Ball (Required Memory Estimate: 7.916169 MB)...
+[2024.06.13-10.37.43:671][923]LogStaticMesh: Built static mesh [0.08s] /Game/ProjectFiles/SM_Ball.SM_Ball
+[2024.06.13-10.37.43:701][923]LogStaticMesh: Warning: SM_Ball has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.06.13-10.37.43:701][923]LogStaticMesh: Warning: SM_Ball has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.06.13-10.37.43:790][923]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.06.13-10.37.43:790][923]FBXImport: Warning: SM_Ball has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2024.06.13-10.37.43:790][923]FBXImport: Warning: SM_Ball has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.06.13-10.37.46:056][923]LogMeshUtilities: Finished distance field build in 2.4s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 1244 triangles, SM_Ball
+[2024.06.13-10.37.46:068][923]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Owen\Documents\Unreal Projects\Blueprint Beginner\SM_Hat.fbx)
+[2024.06.13-10.37.46:074][923]LogFbx: Loading FBX Scene from C:\Users\Owen\Documents\Unreal Projects\Blueprint Beginner\SM_Hat.fbx
+[2024.06.13-10.37.46:081][923]LogFbx: FBX Scene Loaded Succesfully
+[2024.06.13-10.37.46:237][923]LogFbx: Display: Triangulating static mesh Sphere
+[2024.06.13-10.37.46:249][923]LogStaticMesh: Display: Building static mesh SM_Hat (Required Memory Estimate: 0.384568 MB)...
+[2024.06.13-10.37.46:253][923]LogStaticMesh: Built static mesh [0.01s] /Game/ProjectFiles/SM_Hat.SM_Hat
+[2024.06.13-10.37.46:279][923]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.06.13-10.37.46:289][923]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Owen\Documents\Unreal Projects\Blueprint Beginner\SM_HitActor.fbx)
+[2024.06.13-10.37.46:296][923]LogFbx: Loading FBX Scene from C:\Users\Owen\Documents\Unreal Projects\Blueprint Beginner\SM_HitActor.fbx
+[2024.06.13-10.37.46:300][923]LogFbx: FBX Scene Loaded Succesfully
+[2024.06.13-10.37.46:453][923]LogFbx: Display: Triangulating static mesh Cylinder.001
+[2024.06.13-10.37.46:467][923]LogStaticMesh: Display: Building static mesh SM_HitActor (Required Memory Estimate: 0.804037 MB)...
+[2024.06.13-10.37.46:474][923]LogStaticMesh: Built static mesh [0.01s] /Game/ProjectFiles/SM_HitActor.SM_HitActor
+[2024.06.13-10.37.46:497][923]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.06.13-10.37.46:569][923]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Owen\Documents\Unreal Projects\Blueprint Beginner\SM_SoccerGoal.fbx)
+[2024.06.13-10.37.46:575][923]LogFbx: Loading FBX Scene from C:\Users\Owen\Documents\Unreal Projects\Blueprint Beginner\SM_SoccerGoal.fbx
+[2024.06.13-10.37.46:579][923]LogFbx: FBX Scene Loaded Succesfully
+[2024.06.13-10.37.46:726][923]LogFbx: Display: Triangulating static mesh Cube
+[2024.06.13-10.37.46:739][923]LogStaticMesh: Display: Building static mesh SM_SoccerGoal (Required Memory Estimate: 0.992266 MB)...
+[2024.06.13-10.37.46:752][923]LogStaticMesh: Built static mesh [0.01s] /Game/ProjectFiles/SM_SoccerGoal.SM_SoccerGoal
+[2024.06.13-10.37.46:781][923]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.06.13-10.37.48:011][923]LogInterchangeEngine: [Success] Import Done
+[2024.06.13-10.37.50:640][ 16]LogMeshUtilities: Finished distance field build in 3.1s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 1244 triangles, SM_Ball
+[2024.06.13-10.37.58:421][226]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: ================================================
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: Total job queries 221, among them cache hits 49 (22.17%), DDC hits 164 (74.21%), Duplicates 6 (2.71%)
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: Tracking 166 distinct input hashes that result in 153 distinct outputs (92.17%)
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: RAM used: 5.36 MiB of 409.60 MiB budget. Usage: 1.31%
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.06 s
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: Job execution time: average 9.35 s, max 9.71 s
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: Job life time (pending + execution): average 9.39 s, max 9.72
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: Shader code size: average 30.998 KiB, min 27.727 KiB, max 34.27 KiB
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.77 s
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2024.06.13-10.37.58:933][227]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display: Average processing rate: 0.20 jobs/sec
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display: Total thread time: 5.094 s
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display: Total thread preprocess time: 5.955 s
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display: Percentage time preprocessing: 116.90%
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display: Effective parallelization: 0.52 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 2.92 sec, max 2.92 sec, min 2.92 sec)
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 2.18 sec, max 2.18 sec, min 2.18 sec)
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display:                                        FCloudRenderViewPS110 (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 57.27% of total time (compiled    1 times, average 2.92 sec, max 2.92 sec, min 2.92 sec)
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 42.73% of total time (compiled    1 times, average 2.18 sec, max 2.18 sec, min 2.18 sec)
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display:                                        FCloudRenderViewPS110 - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.06.13-10.37.58:934][227]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.06.13-10.37.58:935][227]LogShaderCompilers: Display: === Material stats ===
+[2024.06.13-10.37.58:935][227]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.06.13-10.37.58:935][227]LogShaderCompilers: Display: Materials Translated:    128
+[2024.06.13-10.37.58:935][227]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2024.06.13-10.37.58:935][227]LogShaderCompilers: Display: Material Translation Only: 0.06 s (36%)
+[2024.06.13-10.37.58:935][227]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2024.06.13-10.37.58:935][227]LogShaderCompilers: Display: Material Cache Hits: 20 (16%)
+[2024.06.13-10.37.58:935][227]LogShaderCompilers: Display: ================================================
+[2024.06.13-10.38.14:540][355]LogSlate: Window 'Message Log' being destroyed
+[2024.06.13-10.38.14:598][355]LogSlate: Window 'Message Log' being destroyed
