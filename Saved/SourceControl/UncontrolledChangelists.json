@@ -5,13 +5,24 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/Blueprints/01_DoorBlueprint/BP_Door.uasset",
-				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/3U/EMRZR68P7L51D02H82402G.uasset",
-				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/ThirdPerson/Maps/CompileMap.umap",
-				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/StarterContent/Props/SM_Door.uasset"
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/Blueprints/02_HatPickupBlueprint/BP_HatPickup.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/ProjectFiles/SM_Ball.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/ProjectFiles/mask.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/ProjectFiles/MI_AntennaDisc.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/ProjectFiles/SM_Hat.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/ProjectFiles/Material_002.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/ProjectFiles/SM_HitActor.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/ProjectFiles/Material_001.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/ProjectFiles/SM_SoccerGoal.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/ProjectFiles/Material.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/ProjectFiles/Net.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/Characters/Arissa/Mesh/Arissa.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/Characters/Arissa/Mesh/Arissa_MAT.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/Characters/Arissa/Mesh/Arissa_DIFF_diffuse.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/Characters/Arissa/Mesh/Arissa_SPEC_specular.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/Characters/Arissa/Mesh/Arissa_NM_normal.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/Characters/Arissa/Mesh/Arissa_Skeleton.uasset",
+				"C:/Users/Owen/Documents/Unreal Projects/TestThirdPerson/Content/Characters/Arissa/Mesh/Arissa_PhysicsAsset.uasset"
 			]
 		}
 	]
